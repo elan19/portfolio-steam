@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-Security-Policy" 
+    content="default-src 'self' https://lager.emilfolino.se https://nominatim.openstreetmap.org 'unsafe-eval' https://tile.openstreetmap.org data: 
+    upload.uploadcare.com uploadcare.com ucarecdn.com https://api.rawg.io https://media.rawg.io https://api.uploadcare.com
+    https://cdn.akamai.steamstatic.com; 
+    style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com;">
+    <title>Steam</title>
+
+    <link rel="stylesheet" href="leaflet/leaflet.min.css" />
+    <link rel="stylesheet" href="style.min.css" />
+    <script type="module" src="main.js" defer></script>
+</head>
+<body>
+    <navigation-outlet class="bottom-nav" id="nav"></navigation-outlet>
+    <router-outlet></router-outlet>
+    <footer-outlet></footer-outlet>
+</body>
+</html>
